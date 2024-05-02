@@ -1,0 +1,78 @@
+console.log("Question-1")
+var a=[1,2,3,4,5]
+var sum=0;
+for(var i=0;i<a.length;i++){
+    sum+=i;
+}
+console.log('The sum of elements is '+sum)
+
+
+console.log("Question-2")
+var arr = [1, 2, 3, 3, 4, 5, 5];
+var unique = [];
+for (var i = 0; i < arr.length; i++) {
+    if (!unique.includes(arr[i])) { 
+        unique.push(arr[i]);
+    }
+}
+console.log(unique);
+
+
+console.log("Question-3")
+var arr1=[1, 2, 3] 
+var arr2=[4, 5]
+var arrr=arr1.concat(arr2);
+console.log(arrr)
+
+
+console.log('Question-4')
+var ar1 = [1, 2, 3, 4];
+var ar2 = [3, 4, 5, 6];
+var intersection = [];
+for(var i=0;i<ar1.length;i++){
+    if(ar2.includes(ar1[i]))
+    intersection.push(ar1[i]);
+}
+console.log(intersection)
+
+
+console.log("Question-5");
+function isPalindrome(str) {
+    let left = 0;
+    let right = str.length - 1;
+    while (left < right) {
+        if (str[left] !== str[right]) {
+            return false;
+        }
+        left++;
+        right--;
+    }
+    return true;
+}
+var str1="madam" 
+var str2="peace"
+console.log(str1+":"+isPalindrome(str1));
+console.log(str2+":"+isPalindrome(str2));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
