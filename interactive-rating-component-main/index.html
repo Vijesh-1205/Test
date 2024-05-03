@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div class="parent">
+    <div class="main">
+      <img src="images/icon-star.svg">
+      <h1>How did we do?</h1>
+      <p>Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+        <div class="top4">
+          <ul>
+            <li value="1" onclick="get1()">1</li>
+            <li value="2" onclick="get2()">2</li>
+            <li value="3" onclick="get3()">3</li>
+            <li value="4" onclick="get4()">4</li>
+            <li value="5" onclick="get5()">5</li>
+          </ul>
+        </div>
+          <button id="bt">SUBMIT</button>
+    </div>
+    <div class="main2">
+      <img src="images/illustration-thank-you.svg">
+      <h3>You have selected <span class="ans"></span> out of 5</h3>
+      <h1>Thank you!</h1>
+      <p>  We appreciate you taking the time to give a rating.</p>
+      <p class="middle">If you ever need more support, 
+        don’t hesitate to</p>
+        <p class="last">get in touch!</p>
+    </div>
+  </div>
+
+
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
