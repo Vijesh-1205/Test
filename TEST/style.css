@@ -1,0 +1,44 @@
+body{
+    background-color: whitesmoke;
+}
+.main{
+    padding: 20px 40px 20px;
+    background-color: white;
+    width: 400px;
+    height: auto;
+    border-radius: 40px;
+}
+.parent{
+    margin-top: 20%;
+    margin-left: 30%;
+}
+input{
+    width: 380px;
+    height: 20px;
+}
+.indicator{
+    display: flex;
+    align-items: center;
+}
+.indicator span{
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+.one{
+    margin-left: 40px;
+    display: none;
+}
+.two{
+    margin-left: 5px;
+    display: none;
+}
+.three{
+    margin-left: 5px;
+    display: none;
+}
+.result{
+    margin-left:90px
+}
