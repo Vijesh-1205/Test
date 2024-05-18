@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIT-4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Contact manager</h2>
+    <div class="parent">
+     
+        <h3>Add Contact</h3>
+        <p>Name</p>
+        <input type="text" id="name" placeholder="enter name">
+        <p>Email address</p>
+        <input type="email" id="mail" placeholder="enter email"><br>
+        <div class="category">
+            <p>Select Category</p>
+            <select id="select">
+                <option value="family">family</option>
+                <option value="friend">friend</option>
+                <option value="neighbour">neighbour</option>
+                <option value="staffs">staff</option>
+            </select>
+        </div>
+        <button type="button" id="submit">submit</button>
+        <hr>
+
+        <select id="filter">
+            <option value="All" onclick="filter(All)">All</option>
+            <option value="family" onclick=="filter(family)">family</option>
+            <option value="friend" onclick="filter(friend)">friend</option>
+            <option value="neighbour" onclick="filter(neighbour)">neighbour</option>
+            <option value="staffs" onclick="filter(staffs)">staff</option>
+        </select>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
